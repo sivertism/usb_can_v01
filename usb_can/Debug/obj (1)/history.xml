@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode\usb_can_v01\inc -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode\usb_can_v01 -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode\usb_can_v01\cmsis_boot -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode\usb_can_v01\cmsis_lib\include -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode\usb_can_v01\cmsis_lib -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode\usb_can_v01\cmsis -I..\..\..\..\..\Users\siver\Google Drive\#Bachelor Sensornode\Kode">
+      <target file="stm32f30x_tim.o" lastModified="152a737a33c">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="152796e08d5"/>
+      </target>
+      <target file="syscalls.o" lastModified="152a737a185">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="152796e27a0"/>
+      </target>
+      <target file="stm32f30x_usart.o" lastModified="152a737a585">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="152796e0e9e"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="152a737a362">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="152796db380"/>
+      </target>
+      <target file="GPIO_metoder.o" lastModified="152a7379f7c">
+         <source file="..\..\..\src\GPIO_metoder.c" lastModified="150ec04d880"/>
+      </target>
+      <target file="stm32f30x_syscfg.o" lastModified="152a737a3bf">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_syscfg.c" lastModified="152796dff23"/>
+      </target>
+      <target file="UART_metoder.o" lastModified="152a7379db9">
+         <source file="..\..\..\src\UART_metoder.c" lastModified="152a6cefd4d"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="152a7379e2e">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="152796db374"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="152a7379f37">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="152796db35c"/>
+      </target>
+      <target file="init.o" lastModified="152a737a003">
+         <source file="..\..\..\src\init.c" lastModified="15282a6f597"/>
+      </target>
+      <target file="main.o" lastModified="152a7379fc6">
+         <source file="..\..\..\main.c" lastModified="1529d6154de"/>
+      </target>
+      <target file="stm32f30x_can.o" lastModified="152a737a4d4">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_can.c" lastModified="152796dbc3a"/>
+      </target>
+      <target file="stm32f30x_misc.o" lastModified="152a737a1d9">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="152796e14b3"/>
+      </target>
+      <target file="stm32f30x_adc.o" lastModified="152a7379edc">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="152796db340"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="152a737a0d8">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="152796db395"/>
+      </target>
+      <target file="can_metoder.o" lastModified="152a737a076">
+         <source file="..\..\..\src\can_metoder.c" lastModified="1529dd7474d"/>
+      </target>
+      <target file="SysTick_metoder.o" lastModified="152a737a418">
+         <source file="..\..\..\src\SysTick_metoder.c" lastModified="152a7378c6b"/>
+      </target>
+   </processor>
+</history>

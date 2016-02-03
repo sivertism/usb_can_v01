@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=usb_can.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\usb_can -TC:\CooCox\CoIDE\configuration\ProgramData\usb_can/arm-gcc-link.ld -g">
+      <target file="usb_can.elf" lastModified="152a737a7ed">
+         <source file="..\obj\UART_metoder.o" lastModified="152a7379db9"/>
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="152a7379e2e"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="152a7379edc"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="152a7379f37"/>
+         <source file="..\obj\GPIO_metoder.o" lastModified="152a7379f7c"/>
+         <source file="..\obj\main.o" lastModified="152a7379fc6"/>
+         <source file="..\obj\init.o" lastModified="152a737a003"/>
+         <source file="..\obj\can_metoder.o" lastModified="152a737a076"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="152a737a0d8"/>
+         <source file="..\obj\syscalls.o" lastModified="152a737a185"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="152a737a1d9"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="152a737a33c"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="152a737a362"/>
+         <source file="..\obj\stm32f30x_syscfg.o" lastModified="152a737a3bf"/>
+         <source file="..\obj\SysTick_metoder.o" lastModified="152a737a418"/>
+         <source file="..\obj\stm32f30x_can.o" lastModified="152a737a4d4"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="152a737a585"/>
+      </target>
+   </processor>
+</history>
