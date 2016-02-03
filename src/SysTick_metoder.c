@@ -48,13 +48,6 @@ void SysTick_init(void) {
  */
 void SysTick_Handler(void) {
 
-	/*
-	 * Check for new incoming CAN or USB messages
-	 *
-	 * Send messages through CAN or USB
-	 *
-	 * Update USB_status?
-	 */
 
 	/* Check for new message on CAN and send through USB */
 	if(CAN_getRxMessages()>0){
